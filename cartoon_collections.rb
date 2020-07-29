@@ -6,8 +6,9 @@ brothers.each do |brother|
 end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(powers)
+  powers.map{ |power| power.capitalize + "!"}
+  
 end
 
 def long_planeteer_calls# code an argument here
